@@ -17,18 +17,8 @@ h2{
     line-height: 54px;
     color:black;
 }
-h3{
-    font-size: 50px;
-    line-height:64px;
-    color:black;
-}
 h4{
     font-size: 20px;
-    color:black;
-}
-h5{
-    font-size: 50px;
-    line-height:64px;
     color:black;
 }
 h6{
@@ -81,12 +71,13 @@ body {
     color:#088178;
                                   /*for hovering when pointer on icon*/
 }
-#navbar li a.active::after{
+#navbar li a.active::after,
+#navbar li a:hover::after{
     content: "";    /*everytime after is used, an emtpty content has to be used */
-width: 30px;
+width: 30%;
 height:2px;
 background: #088178;
-postion:absolute;
+position:absolute;
 bottom: -4px;
 left:20px;
 }
