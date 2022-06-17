@@ -84,7 +84,7 @@ left:20px;
 
 /*Home Page*/
 #hero {
-    background-image: url("img\hero4.png");
+    background-image: url("E-commerce images\img\button.png");
     height:90vh;
     width:100%;
     background-size: cover;
@@ -94,4 +94,16 @@ left:20px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+#hero h4{
+    padding-bottom: 15px;  
+}
+#hero h1 {
+    color:#088178;   
+}
+#hero button{
+    background-image: url("C:\Users\Lenovo\Downloads\button.png");
+    background-color: transparent;
+    color:#088178;
+    border: 0;
 }
