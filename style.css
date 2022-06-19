@@ -405,5 +405,11 @@ left:20px;
     border-bottom-right-radius: 0;
 }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 
 
